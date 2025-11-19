@@ -19,6 +19,7 @@ const footerMenus = [
 // 从content获取社交信息
 const socialEntry = await getEntry("social", "-index");
 const socialLinks = socialEntry?.data.platforms || {
+  upyun: "",
   mpwechat: "",
   xhs: "",
   github: "",
@@ -79,11 +80,30 @@ const statsData = {
                 href={SITE_INFO.URL}
                 class="hover:text-orange-500 transition-colors"
               >
-                maplezz.com ·
+                m4sk.cn ·
               </a>
               <a href={SITE_INFO.ICP.URL} target="_blank">
-                {SITE_INFO.ICP.NUMBER}
+                {SITE_INFO.ICP.NUMBER} ·
               </a>
+
+              <a
+                href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GlassButton
+                  variant="info"
+                  size="sm"
+                  className="min-w-10 justify-center flex items-center gap-1"
+                >
+                  <img
+                    src="/assets/uploads/upyun.svg"
+                    alt="又拍云"
+                    class="w-6 h-6 hover:text-blue-600 dark:hover:text-blue-600 transition duration-300"
+                  />
+                </GlassButton>
+              </a>
+
             </div>
             <!-- 右侧：社交链接 -->
             <div class="hidden md:flex md:items-center md:scale-100">
