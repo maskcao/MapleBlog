@@ -36,17 +36,17 @@ export type PageType = 'blog' | 'notes';
 //网站信息
 export const SITE_INFO = {
   // 网站名称
-  NAME: 'MapleBlog',
-  SITE_NAME: 'Maple Blog',
-  SUBNAME: '一个简单的Liquid Glass风格的静态网站系统',
+  NAME: 'Maskcao',
+  SITE_NAME: '叶川Blog',
+  SUBNAME: '记录生活，记录一切！',
   // 网站描述
-  DESCRIPTION: 'Maple_CMS是一个简单的Liquid Glass风格的静态网站系统，用于快速搭建个人博客、技术分享、产品展示等网站。',
+  DESCRIPTION: '想用来分享一些心得和个人生活',
   // 网站 URL (生产环境)
-  URL: 'http://localhost:4321',
-  AUTHOR: 'Maplezz',
+  URL: 'https://blog.maskcao.top',
+  AUTHOR: 'Maskcao',
   // 本地开发 URL
-  DEV_URL: 'http://localhost:4321',
-  LOGO_IMAGE: '/src/assets/image/logo.png',
+  DEV_URL: 'https://blog.maskcao.top',
+  LOGO_IMAGE: '/favicon/logo.png',
   KEY_WORDS: '静态网站,静态网站系统,Maple_CMS',
   GOOGLE_ANALYTICS_ID: 'G-XXXXXX',  // 需改为你自己的Google Analytics ID
   BAIDU_ANALYTICS_ID: 'XXXXXXXXXX', // 需改为你自己的百度分析ID
@@ -54,8 +54,8 @@ export const SITE_INFO = {
   START_DATE: '2025-07-12',
   // ICP 备案信息
   ICP: {
-    NUMBER: '备案号xxxxxx',
-    URL: 'https://xxxxxxxxxx'
+    NUMBER: '豫ICP备2023020642号',
+    URL: 'https://beian.miit.gov.cn/'
   }
 } as const;
 
