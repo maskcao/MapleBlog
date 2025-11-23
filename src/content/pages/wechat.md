@@ -1,6 +1,6 @@
 ---
 title: 关注公众号
-description: 关注我的公众号「阿飞说游戏」，获取最新文章推送
+description: 关注我的公众号「叶川科技社」，获取最新文章推送
 draft: false
 ---
 
