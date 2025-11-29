@@ -18,8 +18,8 @@ draft: false
       </div>
     </div>
     <div class="account-details">
-      <h4 class="account-name">阿飞说游戏</h4>
-      <p class="account-description">分享技术见解与游戏开发心得</p>
+      <h4 class="account-name">叶川科技社</h4>
+      <p class="account-description">分享各种科技软件</p>
     </div>
   </div>
 </div>
